@@ -23,8 +23,8 @@ import (
 	"log"
 	"os"
 
+	"github.com/facundomedica/google-maps-services-go/maps"
 	"golang.org/x/net/context"
-	"googlemaps.github.io/maps"
 )
 
 var (
