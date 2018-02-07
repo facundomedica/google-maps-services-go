@@ -25,7 +25,7 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/facundomedica/google-maps-services-go/maps/internal"
+	"github.com/facundomedica/google-maps-services-go/internal"
 	"golang.org/x/net/context"
 	"golang.org/x/net/context/ctxhttp"
 )

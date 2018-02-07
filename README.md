@@ -2,7 +2,7 @@ Go Client for Google Maps Services
 ==================================
 
 [![Build Status](https://travis-ci.org/googlemaps/google-maps-services-go.svg?branch=master)](https://travis-ci.org/googlemaps/google-maps-services-go)
-[![GoDoc](https://godoc.org/github.com/facundomedica/google-maps-services-go/maps?status.svg)](https://godoc.org/github.com/facundomedica/google-maps-services-go/maps)
+[![GoDoc](https://godoc.org/github.com/facundomedica/google-maps-services-go?status.svg)](https://godoc.org/github.com/facundomedica/google-maps-services-go)
 
 ## Description
 
@@ -77,12 +77,12 @@ For even more information, see the guide to [API keys][apikey].
 To install the Go Client for Google Maps Services, please execute the following `go get` command.
 
 ```bash
-    go get github.com/facundomedica/google-maps-services-go/maps
+    go get github.com/facundomedica/google-maps-services-go
 ```
 
 ## Developer Documentation
 
-View the [reference documentation](https://godoc.org/github.com/facundomedica/google-maps-services-go/maps)
+View the [reference documentation](https://godoc.org/github.com/facundomedica/google-maps-services-go)
 
 Additional documentation for the included  web services is available at
 [developers.google.com/maps][Maps documentation] and
@@ -108,7 +108,7 @@ import (
 
 	"github.com/kr/pretty"
 	"golang.org/x/net/context"
-	"github.com/facundomedica/google-maps-services-go/maps"
+	"github.com/facundomedica/google-maps-services-go"
 )
 
 func main() {
@@ -145,7 +145,7 @@ import (
 
 	"github.com/kr/pretty"
 	"golang.org/x/net/context"
-	"github.com/facundomedica/google-maps-services-go/maps"
+	"github.com/facundomedica/google-maps-services-go"
 )
 
 func main() {

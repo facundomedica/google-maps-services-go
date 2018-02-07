@@ -22,7 +22,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/facundomedica/google-maps-services-go/maps"
+	"github.com/facundomedica/google-maps-services-go"
 	"github.com/kr/pretty"
 	"golang.org/x/net/context"
 )
